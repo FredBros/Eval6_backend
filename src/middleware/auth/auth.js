@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import privateKey from "../auth/private_key.js";
+import privateKey from "./private_key.js";
 
 
 

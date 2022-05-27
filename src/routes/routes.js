@@ -26,7 +26,7 @@ import createAgent from "../controllers/create/createAgent.js";
 import login from "../controllers/login.js";
 
 
-import auth from "../auth/auth.js";
+import auth from "../middleware/auth/auth.js";
 import { Router } from "express";
 const router = Router();
 

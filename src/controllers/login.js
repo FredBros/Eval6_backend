@@ -1,7 +1,7 @@
 import { User } from "../db/createModels.js";
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken";
-import privateKey from "../auth/private_key.js"
+import privateKey from "../middleware/auth/private_key.js"
 
 
 const login = (req, res) => {
