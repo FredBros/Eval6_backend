@@ -1,0 +1,88 @@
+const contacts = [
+  {
+    code_name: "Grey heron",
+    name: "Hyde",
+    first_name: "Ash",
+    date_of_birth: "1971-04-27",
+    nationality: "France",
+  },
+  {
+    code_name: "Jacana",
+    name: "Royans",
+    first_name: "Correy",
+    date_of_birth: "1970-11-14",
+    nationality: "Belgium",
+  },
+  {
+    code_name: "Elephant",
+    name: "Lehemann",
+    first_name: "Emeline",
+    date_of_birth: "1982-10-22",
+    nationality: "Spain",
+  },
+  {
+    code_name: "Praying mantis",
+    name: "Coxon",
+    first_name: "Jdavie",
+    date_of_birth: "1983-06-28",
+    nationality: "Portugal",
+  },
+  {
+    code_name: "Emerald green tree boa",
+    name: "Karpfen",
+    first_name: "Katalin",
+    date_of_birth: "1982-04-11",
+    nationality: "Italy",
+  },
+  {
+    code_name: "Malachite kingfisher",
+    name: "Brinkley",
+    first_name: "Mason",
+    date_of_birth: "1992-08-23",
+    nationality: "Portugal",
+  },
+  {
+    code_name: "Chipmunk",
+    name: "Ashness",
+    first_name: "Lou",
+    date_of_birth: "1980-07-25",
+    nationality: "Italy",
+  },
+  {
+    code_name: "Lion",
+    name: "Robelin",
+    first_name: "Genna",
+    date_of_birth: "1975-04-14",
+    nationality: "France",
+  },
+  {
+    code_name: "Hudsonian godwit",
+    name: "Godier",
+    first_name: "Odele",
+    date_of_birth: "1980-04-17",
+    nationality: "Spain",
+  },
+  {
+    code_name: "Collared lemming",
+    name: "O'Connel",
+    first_name: "Lelia",
+    date_of_birth: "1978-05-26",
+    nationality: "Germany",
+  },
+  {
+    code_name: "Gelada baboon",
+    name: "Hubbins",
+    first_name: "Hyacinthia",
+    date_of_birth: "1994-08-16",
+    nationality: "France",
+  },
+  {
+    code_name: "Squirrel",
+    name: "Petican",
+    first_name: "Iorgo",
+    date_of_birth: "1970-04-23",
+    nationality: "Belgium",
+  },
+];
+
+export default contacts;
