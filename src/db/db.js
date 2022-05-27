@@ -75,7 +75,7 @@ Mission.belongsToMany(Hideout, {
 
 const initDB = async () => {
   return sequelize
-    .sync({ force: true })
+    .sync()
     .then(() => {
       // On remplie les tables (mock, model, msg)
       createInstance(agents, Agent, "agents");

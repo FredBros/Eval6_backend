@@ -12,7 +12,7 @@ app.use(routes);
 
 app.listen(port, () => console.log(`app.js sur http://localhost:${port}`));
 
-//initDB();
+initDB();
 
 app.get('/', (req, res)=>{
   res.json('Hello Heroku ! 👋')
