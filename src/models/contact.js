@@ -1,5 +1,5 @@
 const ContactModel = (sequelize, DataTypes) => {
-  return sequelize.define("Contact", {
+  return sequelize.define("contact", {
     code_name: {
       type: DataTypes.STRING,
       primaryKey: true,
